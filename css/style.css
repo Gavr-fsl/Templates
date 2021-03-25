@@ -95,7 +95,6 @@ a{
 .main{
     margin: 0 auto;
     width: 1110px;
-    height: 200px;
 }
 
 .slider{
@@ -330,4 +329,36 @@ a{
 .news__blocks-second__content-img p{
     margin: 0;
     color: #979797;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: #005BC1;
+}
+.footer-pad{
+    padding: 25px 0;
+}
+.footer-content{
+    font-weight: lighter;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer__contact{
+    padding-top: 35px;
+    font-weight: 500;
+}
+.footer__contact h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer__nav{
+    display: flex;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.footer__nav__block{
+    margin-right: 110px;
 }

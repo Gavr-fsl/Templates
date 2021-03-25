@@ -6,9 +6,13 @@
 a{
     text-decoration: none;
 }
-
+.conteiner{
+    margin: 0 auto;
+    width: 838px;
+}
 .first-screen{
-    background: url(../img/Rectangle\ 2.png) no-repeat;
+    width: 100%;
+    background: url(../img/Rectangle\ 2.png) no-repeat center;
     color: #ffffff;
     z-index: 1; 
 }
@@ -40,7 +44,7 @@ a{
 
 .first-screen__content{
     position: relative;
-    padding: 100px 0 100px 30%;
+    padding: 100px 0 100px 0;
     width: 450px;
     display: flex;
     justify-content: center;
@@ -48,6 +52,7 @@ a{
 }
 .first-screen__content__text{
     z-index: 1;
+    padding: 0 25% 0 10%;
 }
 .first-screen__content__text h1{
     font-size: 36px;
@@ -80,8 +85,10 @@ a{
     width: 300px;
     height: 100%;
     position: absolute;
-    left: 30%;
     z-index: 0;
+}
+.conteiner{
+    width: 838px;
 }
 
 .main{

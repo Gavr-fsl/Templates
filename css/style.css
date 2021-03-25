@@ -3,12 +3,12 @@
     padding: 0;
 }
 
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+}
 a{
     text-decoration: none;
-}
-.conteiner{
-    margin: 0 auto;
-    width: 838px;
 }
 .first-screen{
     width: 100%;
@@ -39,7 +39,7 @@ a{
 }
 .top__menu__nav a{
     color: #ffffff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .first-screen__content{
@@ -52,7 +52,7 @@ a{
 }
 .first-screen__content__text{
     z-index: 1;
-    padding: 0 25% 0 10%;
+    padding: 0 470px 0 190px;
 }
 .first-screen__content__text h1{
     font-size: 36px;
@@ -62,7 +62,7 @@ a{
 .first-screen__content__text p{
     font-size: 16px;
     margin: 40px 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
 }
 .first-screen__content__text button{
@@ -70,7 +70,7 @@ a{
     border: 2px solid #ffffff;
     background: none;
     padding: 10px 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     outline: none;
 }
@@ -88,12 +88,13 @@ a{
     z-index: 0;
 }
 .conteiner{
-    width: 838px;
+    margin: 0 auto;
+    width: 1110px;
 }
 
 .main{
     margin: 0 auto;
-    width: 838px;
+    width: 1110px;
     height: 200px;
 }
 
@@ -159,8 +160,8 @@ a{
 }
 .slider__block{
     position: relative;
-    width: 400px;
-    height: 260px;
+    width: 540px;
+    height: 400px;
 }
 .slider__block img{
     position: absolute;
@@ -169,14 +170,15 @@ a{
     object-fit: cover;
 }
 .slider__block__text{
-    width: 150px;
-    padding: 10px 20px;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 20px 25px;
     position: absolute;
     color: #343434;
     background-color: #fff;
     font-family: 'Oswald', sans-serif;
-    right: 15px;
-    bottom: 15px;
+    right: 35px;
+    bottom: 35px;
 }
 .slider__block__text h1{
     font-size: 18px;
@@ -200,7 +202,7 @@ a{
     width: 400px;
     padding: 80px 50px 80px 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .rent_block-description{
     border: 2px solid #005BC1;
@@ -231,10 +233,101 @@ a{
     margin-left: 20px;
 }
 .description-list ul li{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     margin-top: 10px; 
 }
 .description-content img{
     width: 200px;
+}
+
+.news{
+    margin: 100px 0;
+    color: #343434;
+}
+.news-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.news-menu__button{
+    box-sizing: border-box;
+    padding: 10px 34px;
+    background-color: #005BC1;
+    border: 1px solid #005BC1;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.news-menu__button:hover{
+    background-color: #ffffff;
+    color: #005BC1;
+}
+.news__blocks{
+    display: flex;
+    color: #343434;
+}
+.news__blocks-first{
+    width: 540px;
+    display: flex;
+}
+.news__blocks-first img{
+    width: 255px;
+    height: 255px;
+}
+.news__blocks-first__text{
+    margin-left: 30px;
+}
+.news__blocks-first__text p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 38px 0 20px 0;
+    font-size: 14px;
+}
+.news__blocks-first__text a{
+    font-size: 14px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+.news__blocks-first__text-header p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #979797;
+}
+.news__blocks-first__text-header h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.news__blocks-second{
+    width: 510px;
+    margin-left: 60px;
+}
+.news__blocks-second__content{
+    width: 225px;
+}
+.news__blocks-second__content h1{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.news__blocks-second__content p{
+    font-size: 14px;
+    margin: 25px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.news__blocks-second__content-img{
+    align-items: flex-end;
+}
+.news__blocks-second__content-img img{
+    width: 128px;
+    height: 115px;
+}
+.news__blocks-second__content-img p{
+    margin: 0;
+    color: #979797;
 }

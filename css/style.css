@@ -153,18 +153,24 @@ a{
     border-left: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
 }
+.slider{
+    overflow: hidden;
+}
 .slider__blocks{
     display: flex;
-    justify-content: space-between;
+    overflow: hidden;
+    transition: .4s ease-out;
 }
 .slider__block{
+    display: inline-block;
+    list-style: none;
     position: relative;
     width: 540px;
     height: 400px;
+    margin-right: 30px;
 }
 .slider__block img{
-    position: absolute;
-    width: 100%;
+    width: 540px;
     height: 100%;
     object-fit: cover;
 }
@@ -206,6 +212,7 @@ a{
 .rent_block-description{
     border: 2px solid #005BC1;
     padding: 30px;
+    margin-left: auto;
 }
 .description-header{
     display: flex;
@@ -361,4 +368,7 @@ a{
 }
 .footer__nav__block{
     margin-right: 110px;
+}
+.footer__nav__block p:nth-child(1){
+    margin-bottom: 10px;
 }
